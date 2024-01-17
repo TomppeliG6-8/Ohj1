@@ -1,0 +1,14 @@
+#Kirjoita ohjelma, joka arpoo ja tulostaa kaksi erilaista numerolukon koodia:
+#kolmenumeroisen koodin, jonka kukin numeromerkki on väliltä 0..9.
+#nelinumeroisen koodin, jonka kukin numeromerkki on väliltä 1..6.
+#Vihje: tutustu random.randint()-funktion käyttöön.
+from random import randint
+luk1=randint(0, 9)
+luk2=randint(0,9)
+luk3=randint(0,9)
+luk4=randint(1,6)
+luk5=randint(1,6)
+luk6=randint(1,6)
+luk7=randint(1,6)
+print(f"{luk1}{luk2}{luk3}")
+print(f"{luk4}{luk5}{luk6}{luk7}")
