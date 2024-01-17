@@ -11,6 +11,6 @@ else:
     while grammat>1000:
         grammat-=1000
         a += 1
-    print(f"Massa nykymittojen mukaan: \n{a} kilogrammaa ja {grammat} grammaa")
+    print(f"Massa nykymittojen mukaan: \n{a} kilogrammaa ja {grammat} grammaa.")
 
 
