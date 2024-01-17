@@ -1,0 +1,5 @@
+print("Anna suorakulmiosi kanta ja korkeus.")
+kanta=int(input("Kanta: "))
+korkeus=int(input("Korkeus: "))
+print(f"Suorakulmiosi piiri: {(kanta+korkeus)*2}")
+print(f"Suorakulmiosi pinta-ala: {(kanta*korkeus)}")
