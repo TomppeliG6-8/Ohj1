@@ -7,6 +7,5 @@ elif m1=="B" or "b":
     print("B on ikkunaton hytti autokannen yläpuolella.")
 elif m1=="C" or "c":
     print("C on ikkunaton hytti autokannen alapuolella.")
-
 else:
     print("Virheellinen hyttiluokka.")
